@@ -14,7 +14,7 @@ I[0] = 1
 for i in range(1, 1000):
     I[i] = nextNum(106, 1283, 6075, I[i - 1])
 
-plt.scatter(x, I)
+plt.plot(x, I)
 plt.show()
 
 # b I_j + 1 vs I_j
@@ -44,5 +44,5 @@ for n in N:
     Isum /= n
     y.append(Isum)
 
-plt.scatter(N, y)
+plt.plot(N, y)
 plt.show()

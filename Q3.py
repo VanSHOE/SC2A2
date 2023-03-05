@@ -18,7 +18,7 @@ def random_walk(start: int, timesteps: int) -> int:
     return cur
 
 
-ITERATIONS = 100000
+ITERATIONS = 10000
 
 # a
 probs = [0] * 100

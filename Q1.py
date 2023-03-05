@@ -22,8 +22,10 @@ plt.scatter(I[0:999], I[1:1000])
 plt.show()
 
 # In this plot we see that the points are not uniformly distributed. There are a lot of empty spaces and a lot of
-# clusters. However, this technique is good enough to generate random numbers for generic purposes but not cryptographic
-# purposes.
+# clusters. We see no such major correlation as such from the plot. However, if we look at the actual formula,
+# we will see that in fact, with seed values fixed, any number can only be succeeded with another fixed number which
+# is generally not a good idea for most cryptographic solutions. this technique is good enough to generate random
+# numbers for generic purposes but not cryptographic purposes.
 
 # c
 

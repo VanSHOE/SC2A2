@@ -29,7 +29,7 @@ print(monte_carlo(f, 100000))
 x = np.arange(1000, 100000 + 1, 1000)
 x = [1] + list(x)
 x = np.array(x)
-print(x)
+# print(x)
 
 # plot
 y = np.array([monte_carlo(f, i) for i in x])
